@@ -1,0 +1,15 @@
+// Global styles, resets, and body styles
+body {
+  font-family: $base-font-family;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $primary-color;
+  padding: $spacing-medium;
+  color: $white;
+  text-align: center;
+}
+
+// Any other global styles can be added here

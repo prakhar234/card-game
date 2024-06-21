@@ -1,0 +1,20 @@
+.app-layout {
+  padding: $spacing-medium;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+
+  .header {
+    background-color: $primary-color;
+    color: white;
+    padding: $spacing-medium;
+    text-align: center;
+    margin-bottom: $spacing-medium;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-medium;
+  }
+}

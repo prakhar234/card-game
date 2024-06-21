@@ -1,0 +1,14 @@
+.player {
+  margin-bottom: $spacing-medium;
+  border: 1px solid $player-border;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  background-color: $player-background;
+
+  .player-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

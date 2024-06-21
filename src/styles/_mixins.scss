@@ -1,0 +1,27 @@
+// Flexbox mixin
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Button styles mixin
+@mixin button-styles {
+  padding: $spacing-small $spacing-medium;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: $primary-dark-color;
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

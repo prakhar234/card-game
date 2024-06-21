@@ -1,9 +1,13 @@
 import { createStore } from "vuex";
+import { game } from "./game";
+import { GameState } from "./types";
 
-export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+export interface RootState {
+  game: GameState;
+}
+
+export default createStore<RootState>({
+  modules: {
+    game,
+  },
 });
